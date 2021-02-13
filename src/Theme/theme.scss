@@ -57,7 +57,11 @@ h3 {
   cursor: pointer;
   letter-spacing: 5px !important;
   color: black !important;
-  line-height: 1.5;
+  line-height: 0.8;
+  @media (max-width: 768px) {
+    font-size: 22px !important;
+    line-height: 1.5;
+  }
   @media (min-width: 768px) {
     font-size: 22px !important;
   }
