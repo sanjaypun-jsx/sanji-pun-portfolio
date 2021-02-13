@@ -37,3 +37,13 @@
     padding-left: 10px;
   }
 }
+
+.button-style {
+  background-color: #ff004d;
+  color: white;
+  border: 1px solid #ff004d;
+  &:hover {
+    color: black;
+    border: 1px solid #ff004d;
+  }
+}

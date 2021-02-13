@@ -23,26 +23,12 @@ const About = () => {
         </Typography.Title>
         <div className='btn-grp'>
           <Link to='/contact'>
-            <Button
-              size='large'
-              style={{
-                backgroundColor: "#ff004d",
-                color: "white",
-                border: "none",
-              }}
-            >
+            <Button size='large' className='button-style'>
               Hire Me
             </Button>
           </Link>
           <Link to='/Files/Resume-SanjayKPun.pdf' target='_blank' download>
-            <Button
-              size='large'
-              style={{
-                backgroundColor: "#ff004d",
-                color: "white",
-                border: "none",
-              }}
-            >
+            <Button size='large' className='button-style'>
               Resume
             </Button>
           </Link>
