@@ -13,7 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 60px;
   }
 }
 
@@ -23,5 +23,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+}
+
+.row-about {
+  @media (max-width: 768px) {
+    padding: 40px;
+  }
+}
+
+.title-name {
+  @media (max-width: 768px) {
+    padding-left: 10px;
   }
 }

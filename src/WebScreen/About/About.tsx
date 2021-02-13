@@ -15,8 +15,12 @@ const About = () => {
       className='row-about'
     >
       <Col className='col-style' xs={24} sm={18} md={9} lg={9}>
-        <Typography.Title level={1}>Sanji</Typography.Title>
-        <Typography.Title level={1}>Pun</Typography.Title>
+        <Typography.Title level={1} className='title-name'>
+          Sanji
+        </Typography.Title>
+        <Typography.Title level={1} className='title-name'>
+          Pun
+        </Typography.Title>
         <div className='btn-grp'>
           <Link to='/contact'>
             <Button

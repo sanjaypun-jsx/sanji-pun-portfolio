@@ -22,12 +22,15 @@ const TopNav = () => {
           textAlign: "right",
         }}
       >
-        <Typography.Link href='www.google.com' target='_blank'>
+        <Typography.Link
+          href='https://www.linkedin.com/in/sanjipun/'
+          target='_blank'
+        >
           <LinkedinFilled
             style={{ marginRight: 20, fontSize: 30, color: "#000000" }}
           />
         </Typography.Link>
-        <Typography.Link href='www.google.com' target='_blank'>
+        <Typography.Link href='https://github.com/sanjipun' target='_blank'>
           <GithubOutlined
             style={{ marginRight: 20, fontSize: 30, color: "#000000" }}
           />
