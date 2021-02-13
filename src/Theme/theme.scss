@@ -1,0 +1,113 @@
+/** @format */
+@import "./Theme/variable";
+
+h1 {
+  font-size: 100px !important;
+  letter-spacing: 25px !important;
+  @media (max-width: 768px) {
+    font-size: 50px !important;
+    text-align: center !important;
+    margin: auto !important;
+  }
+  @media (min-width: 768px) {
+    font-size: 65px !important;
+    letter-spacing: 15px !important;
+  }
+  @media (min-width: 992px) {
+    font-size: 80px !important;
+  }
+  @media (min-width: 1080px) {
+    font-size: 100px !important;
+  }
+  @media (min-width: 1200px) {
+    font-size: 120px !important;
+  }
+  @media (min-width: 1440x) {
+    font-size: 150px !important;
+  }
+}
+
+h2 {
+  font-size: 30px !important;
+  letter-spacing: 0.5px !important;
+  text-align: right !important;
+  @media (max-widthl768px) {
+    font-size: 16px !important;
+  }
+  @media (min-width: 768px) {
+    font-size: 18px !important;
+  }
+  @media (min-width: 992px) {
+    font-size: 20px !important;
+  }
+  @media (min-width: 1080px) {
+    font-size: 30px !important;
+  }
+  @media (min-width: 1200px) {
+    font-size: 35 px !important;
+  }
+  @media (min-width: 1440x) {
+    font-size: 40px !important;
+  }
+}
+
+h3 {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  cursor: pointer;
+  letter-spacing: 5px !important;
+  color: black !important;
+  line-height: 0.8;
+  @media (min-width: 768px) {
+    font-size: 22px !important;
+  }
+  @media (min-width: 992px) {
+    font-size: 25px !important;
+  }
+  @media (min-width: 1080px) {
+    font-size: 30px !important;
+  }
+  @media (min-width: 1200px) {
+    font-size: 35 px !important;
+  }
+  @media (min-width: 1440x) {
+    font-size: 40px !important;
+  }
+}
+
+h4 {
+  font-size: 25px !important;
+  letter-spacing: 5px !important;
+  font-weight: 700 !important;
+  cursor: pointer;
+  letter-spacing: 5px !important;
+  color: black !important;
+  line-height: 0.8;
+  @media (max-width: 768px) {
+    font-size: 16px !important;
+  }
+  @media (min-width: 768px) {
+    font-size: 18px !important;
+  }
+  @media (min-width: 992px) {
+    font-size: 20px !important;
+  }
+  @media (min-width: 1080px) {
+    font-size: 30px !important;
+  }
+  @media (min-width: 1200px) {
+    font-size: 32px !important;
+  }
+  @media (min-width: 1440x) {
+    font-size: 35px !important;
+  }
+}
+h5 {
+  letter-spacing: 5px !important;
+  line-height: 100px !important;
+}
+
+p {
+  font-weight: 500 !important;
+  font-size: 20px !important;
+}

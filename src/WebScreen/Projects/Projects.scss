@@ -1,0 +1,28 @@
+/** @format */
+
+.flex-row-projects {
+  height: 90vh;
+  margin: auto;
+  width: 70%;
+  @media (max-width: 768px) {
+    width: auto;
+    padding: 0px 30px;
+  }
+}
+
+.projects {
+  text-align: left !important;
+  h2 {
+    writing-mode: vertical-rl !important;
+  }
+}
+
+.rotate-text-projects {
+  font-weight: 700 !important;
+  border-bottom: 2px solid #ff004d;
+  border-right: 2px solid #ff004d;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  padding: 10px 0px;
+  color: #ff004d !important;
+}

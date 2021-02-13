@@ -1,0 +1,26 @@
+/** @format */
+@import "./Theme/theme.scss";
+@import "./Theme/variable";
+
+body {
+  background-color: #ffffff !important;
+  margin: 0 !important;
+  padding: 2% 3% !important;
+  font-family: Poppins !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.ant-typography {
+  color: #000000 !important;
+  margin: auto !important;
+  text-transform: uppercase !important;
+}

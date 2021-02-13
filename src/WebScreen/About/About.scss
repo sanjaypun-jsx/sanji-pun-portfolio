@@ -1,0 +1,27 @@
+/** @format */
+
+.ant-btn {
+  margin: 0px 10px;
+  text-align: center;
+  border: 1px solid black;
+  color: black;
+  font-weight: 700;
+}
+
+.btn-grp {
+  @media (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+}
+
+.col-style {
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,21 @@
+/** @format */
+
+.nav-mobile {
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.mob-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  span {
+    text-align: center;
+    letter-spacing: 3px !important;
+    font-size: 10px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    cursor: pointer !important;
+  }
+}

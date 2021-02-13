@@ -1,0 +1,27 @@
+/** @format */
+
+.contact {
+  h3 {
+    text-align: left !important;
+    transition: all 0.5s ease;
+    line-height: 100px !important;
+    &:hover {
+      color: #f30a49 !important;
+    }
+    @media (max-width: 768px) {
+      line-height: 50px !important;
+    }
+  }
+}
+
+.flex-row-contact {
+  height: 90vh;
+  margin: auto;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  @media (max-width: 768px) {
+    width: auto;
+    padding: 0px 30px;
+  }
+}

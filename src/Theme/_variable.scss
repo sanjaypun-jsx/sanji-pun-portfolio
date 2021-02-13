@@ -1,0 +1,16 @@
+/** @format */
+@mixin displayFlex($display) {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: $display !important;
+}
+
+@mixin stickyHover {
+  margin-top: 10px;
+  cursor: pointer;
+  border: 2px solid #000000;
+  background: #000000;
+  width: 70px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
