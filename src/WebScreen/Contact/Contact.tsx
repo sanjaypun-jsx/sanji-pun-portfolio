@@ -11,12 +11,15 @@ const Contact = () => {
         <Typography.Title level={3}>Reach Out to me.</Typography.Title>
         <Typography.Title level={3}>iamsanjaypun@gmail.com</Typography.Title>
         <Typography.Title level={3}>+977-9843807911</Typography.Title>
-        <Typography.Link  href='https://www.linkedin.com/in/sanjipun/' target='_blank'>
+        <Typography.Link
+          href='https://www.linkedin.com/in/sanjipun/'
+          target='_blank'
+        >
           <LinkedinFilled
             style={{ marginRight: 20, fontSize: 30, color: "#000000" }}
           />
         </Typography.Link>
-        <Typography.Link href='www.google.com' target='_blank'>
+        <Typography.Link href='https://github.com/sanjipun' target='_blank'>
           <GithubOutlined style={{ fontSize: 30, color: "#000000" }} />
         </Typography.Link>
         {/*<Typography.Title level={5}>
