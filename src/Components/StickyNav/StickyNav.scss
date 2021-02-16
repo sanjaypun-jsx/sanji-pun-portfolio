@@ -3,7 +3,10 @@
 
 .sticky-nav {
   position: absolute;
-  margin-top: 30vh;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   z-index: 9999;
   span {
     letter-spacing: 3px !important;
